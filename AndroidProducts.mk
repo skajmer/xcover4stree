@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_xcover4s.mk
+    $(LOCAL_DIR)/twrp_xcover4s.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_xcover4s-user \
-    omni_xcover4s-userdebug \
-    omni_xcover4s-eng
+    twrp_xcover4s-user \
+    twrp_xcover4s-userdebug \
+    twrp_xcover4s-eng
