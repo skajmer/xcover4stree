@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from xcover4s device
 $(call inherit-product, device/samsung/xcover4s/device.mk)
 
 PRODUCT_DEVICE := xcover4s
-PRODUCT_NAME := omni_xcover4s
+PRODUCT_NAME := twrp_xcover4s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G398FN
 PRODUCT_MANUFACTURER := samsung
